@@ -9,9 +9,7 @@ $vref: '#/ckan/ksp-avc'
 resources:
   homepage: https://github.com/Sapphia15/RCSAdvancedActions
 depends:
-  
-name: ModuleManager
+  - name: ModuleManager
 install:
-  
-find: RCSAdvancedActions
-  install_to: GameData
+  - find: RCSAdvancedActions
+    install_to: GameData
