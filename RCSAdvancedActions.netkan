@@ -8,6 +8,10 @@ license: MIT
 $vref: '#/ckan/ksp-avc'
 resources:
   homepage: https://github.com/Sapphia15/RCSAdvancedActions
+tags:
+  - plugin
+  - convenience
+  - editor
 depends:
   - name: ModuleManager
 install:
